@@ -1,5 +1,5 @@
 import win32com.client as win32
-from path import Path
+from pathlib import Path
 
 # Criando uma pasta para armazenar os arquivos de anexos
 destino = Path.cwd()/"output"
